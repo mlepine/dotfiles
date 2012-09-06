@@ -3,6 +3,7 @@ if [[ $STY = '' ]] then screen -xR; fi
 
 # Add home/.bin to PATH
 PATH=$PATH:$HOME/.bin
+OS=$(uname)
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -21,6 +22,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias hgrep='history | grep'
+
+# On OSX use macvim
+if [[ "$OS" == "Darwin" ]]; then
+	alias vim="mvim -v"
+fi
 
 # History Stuff
 
@@ -90,17 +96,7 @@ error_prompt2="%{$fg[$error_color]%}%?%{$reset_color%}"
 error_prompt3="%{$fg_bold[$error_color]%}>%{$reset_color%}"
 error_total="%(?..${error_prompt1}${error_prompt2}${error_prompt3} )"
 
-case "$TERM" in
-  (screen)
-    function precmd() { print -Pn "\033]0;:t{%100<...<%~%<<}\007" }
-  ;;
-  (xterm)
-    directory_prompt=""
-  ;;
-  (*)
-    directory_prompt="%{$fg[$directory_color]%}%~%{$reset_color%} "
-  ;;
-esac
+directory_prompt="%{$fg[$directory_color]%}%~%{$reset_color%} "
 
 if [[ $USER == root ]]; then
   post_prompt="%{$fg_bold[$root_color]%}%#%{$reset_color%}"
