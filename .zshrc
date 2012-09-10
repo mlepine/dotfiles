@@ -1,5 +1,5 @@
 # Autoload screen if we aren't in it.
-if [[ $STY = '' ]] then screen -xR; fi
+#if [[ $STY = '' ]] then screen -xR; fi
 
 # Add home/.bin to PATH
 PATH=$PATH:$HOME/.bin
