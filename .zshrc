@@ -75,7 +75,7 @@ host_color=cyan
 history_color=yellow
 user_color=green
 root_color=red
-directory_color=magenta
+directory_color=cyan
 error_color=red
 jobs_color=green
 
