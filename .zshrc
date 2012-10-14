@@ -4,6 +4,9 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+# Tweek the prompt
+PROMPT='%{$fg_bold[blue]%}%n@%m '${PROMPT}
+
 # Add home/.bin to PATH
 PATH=$PATH:$HOME/.bin
 OS=$(uname)
