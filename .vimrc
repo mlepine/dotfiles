@@ -36,3 +36,5 @@ function! s:CloseIfOnlyNerdTreeLeft()
 		endif
 	endif
 endfunction
+
+let g:notes_directory = '~/Documents/Notes'
