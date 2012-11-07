@@ -29,11 +29,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias hgrep='history | grep'
 
-# On OSX use macvim
-if [[ "$OS" == "Darwin" ]]; then
-	alias vim="mvim -v"
-fi
-
 # History Stuff
 
 # Where it gets saved
