@@ -4,7 +4,6 @@ call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
-colorscheme molokai
 set tabstop=4
 set background=dark
 set hidden
@@ -38,3 +37,4 @@ function! s:CloseIfOnlyNerdTreeLeft()
 endfunction
 
 let g:notes_directory = '~/Documents/Notes'
+colorscheme molokai
