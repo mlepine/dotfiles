@@ -38,3 +38,4 @@ endfunction
 
 let g:notes_directory = '~/Documents/Notes'
 colorscheme molokai
+set colorcolumn=80
