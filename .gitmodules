@@ -16,9 +16,6 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule ".vim/bundle/vim-clojure"]
-	path = .vim/bundle/vim-clojure
-	url = https://github.com/helino/vim-clojure.git
 [submodule ".zsh/oh-my-zsh"]
 	path = .zsh/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
@@ -28,3 +25,9 @@
 [submodule ".vim/bundle/vim-tslime/plugin"]
 	path = .vim/bundle/vim-tslime/plugin
 	url = git://github.com/kikijump/tslime.vim.git
+[submodule ".vim/bundle/vim-foreplay"]
+	path = .vim/bundle/vim-foreplay
+	url = git@github.com:tpope/vim-foreplay.git
+[submodule ".vim/bundle/vim-clojure-static"]
+	path = .vim/bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
