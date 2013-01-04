@@ -5,6 +5,8 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 set tabstop=4
+set shiftwidth=4
+set expandtab
 set background=dark
 set hidden
 set wildmenu
@@ -39,3 +41,5 @@ endfunction
 let g:notes_directory = '~/Documents/Notes'
 colorscheme molokai
 set colorcolumn=80
+let vimclojure#HighlightBuiltins=1 
+let vimclojure#ParenRainbow=1
