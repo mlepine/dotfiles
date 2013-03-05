@@ -22,6 +22,9 @@
 [submodule ".vim/bundle/vim-notes"]
 	path = .vim/bundle/vim-notes
 	url = https://github.com/xolox/vim-notes.git
+[submodule ".vim/bundle/vim-tslime/plugin"]
+	path = .vim/bundle/vim-tslime/plugin
+	url = git://github.com/kikijump/tslime.vim.git
 [submodule ".vim/bundle/vim-foreplay"]
 	path = .vim/bundle/vim-foreplay
 	url = git@github.com:tpope/vim-foreplay.git
