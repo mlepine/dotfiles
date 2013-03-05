@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-clojure-static"]
 	path = .vim/bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule ".vim/bundle/gitgutter"]
+	path = .vim/bundle/gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
